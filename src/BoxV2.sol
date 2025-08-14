@@ -10,11 +10,11 @@ contract BoxV2 is UUPSUpgradeable {
         number = _number;
     }
 
-    function getNumber() external view returns(uint256) {
+    function getNumber() external view returns (uint256) {
         return number;
     }
 
-    function version() external pure returns(uint256) {
+    function version() external pure returns (uint256) {
         return 2;
     }
 

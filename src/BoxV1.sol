@@ -18,11 +18,11 @@ contract BoxV1 is Initializable, UUPSUpgradeable, OwnableUpgradeable {
         __UUPSUpgradeable_init();
     }
 
-    function getNumber() external view returns(uint256) {
+    function getNumber() external view returns (uint256) {
         return number;
     }
 
-    function version() external pure returns(uint256) {
+    function version() external pure returns (uint256) {
         return 1;
     }
 
